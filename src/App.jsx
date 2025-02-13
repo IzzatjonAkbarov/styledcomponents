@@ -1,6 +1,7 @@
 import GlobalStyle from ".";
 import FirstPage from "./Components/FirstPage";
 import SecondPage from "./Components/SecondPage";
+import StyledComponents from "./Components/StyledComponents/inedx";
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
         <br />
         <br />
         <SecondPage />
+        <br />
+        <StyledComponents />
       </div>
     </>
   );
